@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dubai Mall Deck</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<nav>
+  <div class="logo">DUBAI MALL</div>
+  <ul>
+    <li onclick="go('leasing')">Leasing</li>
+<li onclick="go('sponsor')">Sponsor</li>
+    <li onclick="go('hero')">Home</li>
+    <li onclick="go('why')">Why</li>
+    <li onclick="go('retail')">Retail</li>
+    <li onclick="go('entertainment')">Entertainment</li>
+    <li onclick="go('events')">Events</li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section id="hero" class="section hero">
+  <video autoplay muted loop playsinline>
+    <source src="https://cdn.coverr.co/videos/coverr-shopping-mall-people-5171/1080p.mp4">
+  </video>
+  <div class="overlay"></div>
+
+  <div class="hero-content">
+    <h1 class="animate">THE WORLD’S MOST VISITED DESTINATION</h1>
+    <p class="animate">Where 100M+ visitors meet global brands, luxury, and unforgettable experiences</p>
+     <p class="subline">
+    The ultimate platform for retail, entertainment, and global brand storytelling
+  </p>
+</div>
+  </div>
+</section>
+
+<!-- WHY -->
+<section id="why" class="section dark">
+  <h2 class="title">WHY BRANDS CHOOSE DUBAI MALL</h2>
+
+  <div class="content">
+  <div class="card stat" data-target="100">0M+ Visitors</div>
+  <div class="card stat" data-target="1200">0+ Brands</div>
+  <div class="card stat" data-target="200">0+ Dining</div>
+</div>
+</section>
+
+  
+<!-- RETAIL -->
+<section id="retail" class="section image-section">
+    <div class="overlay"></div>
+  <div class="content">
+  <h2 class="title">RETAIL ECOSYSTEM</h2>
+
+  <div class="grid">
+    <div class="card">Luxury Flagships</div>
+    <div class="card">Global Brands</div>
+    <div class="card">Pop-up Innovation</div>
+  </div>
+</section>
+  
+  <section class="section dark" id="leasing">
+  <h2 class="title">LEASING OPPORTUNITIES</h2>
+
+  <div class="grid">
+    <div class="card">
+      <h3>Luxury</h3>
+      <p>High-end flagship presence</p>
+    </div>
+
+    <div class="card">
+      <h3>Retail</h3>
+      <p>High footfall zones</p>
+    </div>
+
+    <div class="card">
+      <h3>Pop-Up</h3>
+      <p>Short-term activations</p>
+    </div>
+  </div>
+</section>
+
+<!-- ENTERTAINMENT -->
+<section id="entertainment" class="section dark">
+  <h2 class="title">ENTERTAINMENT</h2>
+
+  <div class="grid">
+    <div class="card">Dubai Aquarium</div>
+    <div class="card">VR Park</div>
+    <div class="card">Ice Rink</div>
+  </div>
+</section>
+
+  
+  <section class="section" id="sponsor">
+  <h2 class="title">SPONSORSHIP PLATFORM</h2>
+
+  <div class="grid">
+    <div class="card">Brand Activations</div>
+    <div class="card">Digital Screens</div>
+    <div class="card">Experiential Campaigns</div>
+  </div>
+</section>
+  
+<!-- EVENTS -->
+<section id="events" class="section cta-section">
+  <h2 class="title">EVENTS & ACTIVATIONS</h2>
+  <p>Host global launches, celebrity events, and high-impact brand activations</p>
+  <button class="cta" onclick="openModal()">Request Partnership Deck</button>
+</section>
+  <div id="modal" class="modal">
+  <div class="modal-content">
+    <span onclick="closeModal()">×</span>
+    <h2>Partner With Us</h2>
+    <input type="text" placeholder="Your Brand Name">
+    <input type="email" placeholder="Email">
+    <button>Submit</button>
+  </div>
+</div>
+
+</body>
+</html>
